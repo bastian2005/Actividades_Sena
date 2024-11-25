@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    border: 1px solid red;
+    height: 635px;
+    width: 730px;
+    margin: auto;
+}
+header{
+    border: 1px solid red;
+    height: 120px;
+    width: 730px;
+}
+nav{
+    border: 1px solid red;
+    height: 62px;
+    width: 730px;
+}
+aside{
+    border: 1px solid red;
+    width: 268px;
+}
+main aside article{
+    border: 1px solid red;
+    height: 175px;
+    width: 250px;
+    margin: 6px;
+}
+main section article{
+    border: 1px solid red;
+    height: 175px;
+    width: 250px;
+    display: inline-block;
+}

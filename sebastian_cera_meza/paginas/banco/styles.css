@@ -3,19 +3,19 @@ body{
 }
 main{
     border: 1px solid red;
-    height: 635px;
-    width: 730px;
+    height: 790px;
+    width: 880px;
     margin: auto;
 }
 header{
     border: 1px solid red;
     height: 120px;
-    width: 730px;
+    width: 880px;
 }
 nav{
     border: 1px solid red;
     height: 62px;
-    width: 730px;
+    width: 880px;
 }
 aside{
     border: 1px solid red;
@@ -27,9 +27,18 @@ main aside article{
     width: 250px;
     margin: 6px;
 }
+section{
+    border: 1px solid red;
+    float: left;
+}
 main section article{
     border: 1px solid red;
     height: 175px;
     width: 250px;
     display: inline-block;
+}
+footer{
+    border: 1px solid red;
+    height: 62px;
+    width: 730px;
 }

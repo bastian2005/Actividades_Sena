@@ -27,9 +27,12 @@ main aside article{
     width: 250px;
     margin: 6px;
 }
-section{
+main section{
     border: 1px solid red;
-    float: left;
+    height: 360px;
+    width: 510px;
+    float: right;
+    margin-bottom: 10px;
 }
 main section article{
     border: 1px solid red;

@@ -2,46 +2,131 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 main{
-    border: 1px solid red;
-    height: 790px;
+    
+    height: 657px;
     width: 880px;
     margin: auto;
 }
 header{
-    border: 1px solid red;
-    height: 120px;
-    width: 880px;
+    background-color: rgb(178, 178, 178);
+    border-radius: 20px 20px 0 0;
+    height: 100px;
+    border-bottom: 5px solid rgb(35, 35, 35);
+}
+header img{
+    height: 100%;
+    width: 95%;
+    display: block;
+    margin: auto;
 }
 nav{
-    border: 1px solid red;
+    background-color: rgb(255, 189, 23);
     height: 62px;
-    width: 880px;
+    border-top: 5px solid rgb(35, 35, 35);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-radius: 0 0 20px 20px;
 }
-aside{
-    border: 1px solid red;
-    width: 268px;
-}
-main aside article{
-    border: 1px solid red;
-    height: 175px;
-    width: 250px;
-    margin: 6px;
+nav p{
+    color: black;
 }
 main section{
-    border: 1px solid red;
-    height: 360px;
-    width: 510px;
-    float: right;
     margin-bottom: 10px;
 }
-main section article{
-    border: 1px solid red;
-    height: 175px;
-    width: 250px;
+aside{
+    width: 268px;
     display: inline-block;
+}
+.header1{
+    height: 14px;
+    border: none;
+    background-color: rgb(35, 35, 35);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.art1{
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 10px;
+    height: 189px;
+    background-color: rgb(178, 178, 178);
+}
+form{
+    padding: 5px;
+    padding-left: 20px;
+}
+form p{
+    color:  rgb(35, 35, 35);
+    display: inline;
+}
+input{
+    float: right;
+    width: 134px;
+    font-size: 12px;
+    font-style: italic;
+}
+button{
+    background-color: rgb(255, 189, 23);
+    border-radius: 4px;
+    margin-left: 70px;
+    margin-top: 6px;
+}
+.header2{
+    height: 13px;
+    background-color: rgb(19, 19, 19);
+    color: rgb(255, 189, 23);
+    font-style: italic;
+    padding: 8px;
+    text-align: center;
+    font-size: 13px;
+    border-radius: 0;
+}
+.art2{
+    height: 189px;
+    background-color: rgb(34, 34, 34);
+    border: none;
+}
+.art2 p{
+    color: white;
+    border-bottom: 1px solid  rgb(65, 65, 65);
+    font-size: 12px;
+    text-align: center;
+}
+main section section{
+    height: 373px;
+    width: 600px;
+    display: inline-block;
+}
+main section section article{
+    height: 185px;
+    width: 295px;
+    display: inline-block;
+    background-color: rgb(178, 178, 178);
+    background: linear-gradient(to bottom, white, rgb(178, 178, 178));
+    border-radius: 20px;
+}
+main section section article header{
+    height: auto;
+    background-color: rgb(19, 19, 19);
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding: 8px;
+}
+main section section article img{
+    margin-top: -3px;
+    width: 40%;
+    width: 40%;
+    padding-left: 70px;
 }
 footer{
     border: 1px solid red;
-    height: 62px;
-    width: 730px;
+    height: 67px;
+    width: 880px;
 }

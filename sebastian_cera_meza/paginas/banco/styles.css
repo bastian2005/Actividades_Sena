@@ -106,10 +106,12 @@ main section section{
 main section section article{
     height: 185px;
     width: 295px;
-    display: inline-block;
+    float: left;
     background-color: rgb(178, 178, 178);
     background: linear-gradient(to bottom, white, rgb(178, 178, 178));
     border-radius: 20px;
+    margin: 2px;
+    margin-top: 8px;
 }
 main section section article header{
     height: auto;
@@ -125,8 +127,31 @@ main section section article img{
     width: 40%;
     padding-left: 70px;
 }
+.man{
+    margin-top: 7px;
+    width: 40%;
+    width: 40%;
+    padding-left: 70px;
+}
+.cas{
+    margin-top: -7px;
+    width: 40%;
+    width: 40%;
+    padding-left: 70px;
+}
+main section section article p{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+}
 footer{
-    border: 1px solid red;
+    background-color: rgb(35, 35, 35);
     height: 67px;
-    width: 880px;
+    clear: both;
+    border-radius: 0 0 20px 20px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom:5px;
+    font-size: 14px;
 }
